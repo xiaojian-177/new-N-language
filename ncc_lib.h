@@ -1,0 +1,17 @@
+#define use_config_fileb true
+#define use_project_compile false
+#define EXIT_NORMAL 0
+#define COMPILE_ERROR 1
+#define PREPARE_ERROR 2
+#define UNKNOWN_ERROR 127	
+#define OP_IO 0x01
+#define NOP 0x00
+#define CODE_END 0xCC
+#define OP_ADD 0x02
+#define OP_SUB 0x03
+#define OP_MUL 0x04
+#define OP_DIV 0x05
+#define OP_PRT 0x06
+#define OP_IPT 0x07
+#define OP_PUSH 0x08
+#define section 0x2e
